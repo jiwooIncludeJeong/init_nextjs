@@ -1,0 +1,26 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["babel-plugin-styled-components", { "fileName": true, "displayName": true, "pure": true, "ssr": true}],
+    [
+      "module-resolver",
+      {
+        "root": ["./src/"],
+        "alias": {
+          "~": ["./*"],
+          "@pages/*": ["./pages/*"],
+          "@components/*": ["./components/*"],
+          "@api/*": ["./api/*"],
+          "@assets/*": ["./assets/*"],
+          "@interfaces/*": ["./interfaces/*"],
+          "@utils/*": ["./utils/*"],
+          "@hooks/*": ["./hooks/*"],
+          "@recoils/*": ["./recoils/*"],
+          "@enums/*" : ["./enums/*"],
+          "@styles/*": ["./styles/*"]
+        },
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ]]
+}
+
