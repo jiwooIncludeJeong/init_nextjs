@@ -5,18 +5,15 @@
     [
       "module-resolver",
       {
-        "root": ["./src/"],
+        "root": ["."],
         "alias": {
           "~": ["./*"],
           "@pages/*": ["./pages/*"],
           "@components/*": ["./components/*"],
           "@api/*": ["./api/*"],
           "@assets/*": ["./assets/*"],
-          "@interfaces/*": ["./interfaces/*"],
           "@utils/*": ["./utils/*"],
           "@hooks/*": ["./hooks/*"],
-          "@recoils/*": ["./recoils/*"],
-          "@enums/*" : ["./enums/*"],
           "@styles/*": ["./styles/*"]
         },
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
