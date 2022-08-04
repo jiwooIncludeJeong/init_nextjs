@@ -6,8 +6,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>INCLUDE 정지우</title>
-        <meta name="description" content="about-INCLUDE" />
+        <title>BROWSER TITLE</title>
+        <meta name="description" content="BROWSER-CONTENT" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
