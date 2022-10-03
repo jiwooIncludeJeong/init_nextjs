@@ -5,7 +5,7 @@
     [
       "module-resolver",
       {
-        "root": ["."],
+        "root": ["./src/"],
         "alias": {
           "~": ["./*"],
           "@pages/*": ["./pages/*"],
@@ -14,7 +14,8 @@
           "@assets/*": ["./assets/*"],
           "@utils/*": ["./utils/*"],
           "@hooks/*": ["./hooks/*"],
-          "@styles/*": ["./styles/*"]
+          "@styles/*": ["./styles/*"],
+          "@apis/*": ["./apis/*"]
         },
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }

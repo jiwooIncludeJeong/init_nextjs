@@ -1,16 +1,21 @@
 import '@styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import { RecoilRoot } from 'recoil';
+import { GlobalStyles } from '@styles/global-styles';
+import { Normalize } from 'styled-normalize';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
         <title>BROWSER TITLE</title>
-        <meta name="description" content="BROWSER-CONTENT" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Component {...pageProps} />
+      <RecoilRoot>
+        <GlobalStyles />
+        <Normalize />
+        <Component {...pageProps} />
+      </RecoilRoot>
     </>
   );
 }
