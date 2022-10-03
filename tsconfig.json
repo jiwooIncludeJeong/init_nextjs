@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"],
       "@pages/*": [
@@ -25,6 +25,9 @@
       "@hooks/*": ["./hooks/*"],
       "@styles/*": [
         "./styles/*"
+      ],
+      "@apis/*": [
+        "./apis/*"
       ]
     },
     "incremental": true
