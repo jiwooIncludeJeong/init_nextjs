@@ -4,8 +4,8 @@
 ```
 yarn svgr
 ```
-- [@assets/svgs](assets/svgs) 아래에 svg파일 추가 후 명령어 입력
-- [@assets/icons](assets/icons)에 tsx 생성
+- [@assets/svgs](src/assets/svgs) 아래에 svg파일 추가 후 명령어 입력
+- [@assets/icons](src/assets/icons)에 tsx 생성
 ### jest
 ```
 yarn test
