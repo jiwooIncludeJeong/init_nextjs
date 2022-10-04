@@ -28,7 +28,7 @@
       ],
       "@apis/*": [
         "./apis/*"
-      ]
+      ],
     },
     "incremental": true
   },

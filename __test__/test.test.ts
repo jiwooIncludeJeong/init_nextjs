@@ -1,6 +1,10 @@
-describe('jest Test', () => {
-  const input = [1, 2, 3, 4];
-  it('input length is four', () => {
-    expect(input.length).toEqual(4);
+import { checkNumber } from '@utils/checkNumber';
+
+describe('check number', () => {
+  it('number', () => {
+    expect(checkNumber(1)).toBe(true);
+  });
+  it('not number', () => {
+    expect(checkNumber(null)).toBe(false);
   });
 });
